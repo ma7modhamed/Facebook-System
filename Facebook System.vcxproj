@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E101088C-FD87-4CD8-8A59-237B092CBA75}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>FacebookSystem</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>F:\UI Design\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountControl.cpp" />
+    <ClCompile Include="AccountSettings.cpp" />
+    <ClCompile Include="AccountShow.cpp" />
+    <ClCompile Include="AccountsList.cpp" />
+    <ClCompile Include="AllConversations.cpp" />
+    <ClCompile Include="Comment.cpp" />
+    <ClCompile Include="commentControl.cpp" />
+    <ClCompile Include="Conversation.cpp" />
+    <ClCompile Include="ConversationLastMessage.cpp" />
+    <ClCompile Include="FacebookSys.cpp" />
+    <ClCompile Include="FBAccount.cpp" />
+    <ClCompile Include="Home.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="Messenger.cpp" />
+    <ClCompile Include="newsFeed.cpp" />
+    <ClCompile Include="oneMessage.cpp" />
+    <ClCompile Include="Post.cpp" />
+    <ClCompile Include="Reactors.cpp" />
+    <ClCompile Include="Registered_sucsses.cpp" />
+    <ClCompile Include="Reply.cpp" />
+    <ClCompile Include="ReplyControl.cpp" />
+    <ClCompile Include="SeeFriendship.cpp" />
+    <ClCompile Include="SendMessage.cpp" />
+    <ClCompile Include="UserPost.cpp" />
+    <ClCompile Include="UserProfile.cpp" />
+    <ClCompile Include="Users.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountControl.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AccountSettings.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AccountShow.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AccountsList.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AllConversations.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Comment.h" />
+    <ClInclude Include="commentControl.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Conversation.h" />
+    <ClInclude Include="ConversationLastMessage.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="FacebookSys.h" />
+    <ClInclude Include="FBAccount.h" />
+    <ClInclude Include="Home.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Messenger.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="newsFeed.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="oneMessage.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Post.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Reactors.h" />
+    <ClInclude Include="Registered_sucsses.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Reply.h" />
+    <ClInclude Include="ReplyControl.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="SeeFriendship.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SendMessage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UserPost.h" />
+    <ClInclude Include="UserProfile.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Users.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccountControl.resx">
+      <DependentUpon>AccountControl.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountSettings.resx">
+      <DependentUpon>AccountSettings.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountShow.resx">
+      <DependentUpon>AccountShow.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountsList.resx">
+      <DependentUpon>AccountsList.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllConversations.resx">
+      <DependentUpon>AllConversations.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chat1.resx" />
+    <EmbeddedResource Include="ChatMessage.resx" />
+    <EmbeddedResource Include="commentControl.resx">
+      <DependentUpon>commentControl.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConversationLastMessage.resx">
+      <DependentUpon>ConversationLastMessage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messenger.resx">
+      <DependentUpon>Messenger.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newsFeed.resx">
+      <DependentUpon>newsFeed.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oneMessage.resx">
+      <DependentUpon>oneMessage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Post.resx">
+      <DependentUpon>Post.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registered_sucsses.resx">
+      <DependentUpon>Registered_sucsses.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReplyControl.resx">
+      <DependentUpon>ReplyControl.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeeFriendship.resx">
+      <DependentUpon>SeeFriendship.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendMessage.resx">
+      <DependentUpon>SendMessage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserProfile.resx">
+      <DependentUpon>UserProfile.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users.resx">
+      <DependentUpon>Users.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

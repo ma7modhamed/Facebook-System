@@ -1,0 +1,19 @@
+﻿  Home.cpp
+f:\faculty of computers and informatics\2nd year\facebook system\ReplyControl.h(52): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\faculty of computers and informatics\2nd year\facebook system\commentControl.h(57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\faculty of computers and informatics\2nd year\facebook system\commentControl.h(938): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\faculty of computers and informatics\2nd year\facebook system\Post.h(257): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\faculty of computers and informatics\2nd year\facebook system\Post.h(1274): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\faculty of computers and informatics\2nd year\facebook system\oneMessage.h(34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Login.cpp
+f:\faculty of computers and informatics\2nd year\facebook system\ReplyControl.h(52): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\faculty of computers and informatics\2nd year\facebook system\commentControl.h(57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\faculty of computers and informatics\2nd year\facebook system\commentControl.h(938): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\faculty of computers and informatics\2nd year\facebook system\Post.h(257): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\faculty of computers and informatics\2nd year\facebook system\Post.h(1274): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+f:\faculty of computers and informatics\2nd year\facebook system\oneMessage.h(34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Login.cpp(9): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Generating Code...
+  AccountControl.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  Facebook System.vcxproj -> F:\Faculty of Computers and Informatics\2nd Year\Facebook System\Debug\Facebook System.exe
+  Facebook System.vcxproj -> F:\Faculty of Computers and Informatics\2nd Year\Facebook System\Debug\Facebook System.pdb (Partial PDB)

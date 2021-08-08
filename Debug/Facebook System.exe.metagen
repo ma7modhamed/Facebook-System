@@ -1,0 +1,290 @@
+  FacebookSystem.AccountControl.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.AccountSettings.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.AccountShow.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.AccountsList.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.AllConversations.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.Chat1.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.ChatMessage.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.commentControl.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.ConversationLastMessage.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.Home.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.Login.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.Messenger.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.newsFeed.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.oneMessage.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.Post.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.Registered_sucsses.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.ReplyControl.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.SeeFriendship.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.SendMessage.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.UserProfile.resources - Embedded, ContainedInManifestFile, 
+  FacebookSystem.Users.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Facebook System, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Bunifu_UI_v1.5.3, Version=1.5.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Reactors: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    addReact(String, String): PrivateScope, Public, HideBySig
+    GetReactorsCount(): PrivateScope, Public, HideBySig
+    GettotalReactors(): PrivateScope, Public, HideBySig
+    DeleteReact(String, String): PrivateScope, Public, HideBySig
+    UpdateReact(String, String, String): PrivateScope, Public, HideBySig
+Class Reply: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    addReact(String, String): PrivateScope, Public, HideBySig
+    getReplyId(): PrivateScope, Public, HideBySig
+    GetReplierE_mail(): PrivateScope, Public, HideBySig
+    GetReplyText(): PrivateScope, Public, HideBySig
+    GetReplierReact(): PrivateScope, Public, HideBySig
+    DeleteReact(String, String): PrivateScope, Public, HideBySig
+    UpdateReact(String, String, String): PrivateScope, Public, HideBySig
+Class Comment: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    addReplay(Int32, Reply): PrivateScope, Public, HideBySig
+    addReact(String, String): PrivateScope, Public, HideBySig
+    addReactToReply(Int32, String, String): PrivateScope, Public, HideBySig
+    GetCommentId(): PrivateScope, Public, HideBySig
+    GetCommentText(): PrivateScope, Public, HideBySig
+    GetCommenterE_mail(): PrivateScope, Public, HideBySig
+    GetCommentReactors(): PrivateScope, Public, HideBySig
+    GetCommentReplies(): PrivateScope, Public, HideBySig
+    DeleteReact(String, String): PrivateScope, Public, HideBySig
+    UpdateReact(String, String, String): PrivateScope, Public, HideBySig
+    DeleteReactReply(Int32, String, String): PrivateScope, Public, HideBySig
+    UpdateReactReply(Int32, String, String, String): PrivateScope, Public, HideBySig
+Class UserPost: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    addTaggedUser(String): PrivateScope, Public, HideBySig
+    addReactors(String, String): PrivateScope, Public, HideBySig
+    addReactorsToComment(Int32, String, String): PrivateScope, Public, HideBySig
+    addReactorsToReply(Int32, Int32, String, String): PrivateScope, Public, HideBySig
+    addComment(Int32, Comment): PrivateScope, Public, HideBySig
+    addReplayToComment(Int32, Int32, Reply): PrivateScope, Public, HideBySig
+    Getpost_text(): PrivateScope, Public, HideBySig
+    GetPoster_Mail(): PrivateScope, Public, HideBySig
+    GetTaggedPeaple(): PrivateScope, Public, HideBySig
+    isPostPublic(): PrivateScope, Public, HideBySig
+    Getreactors(): PrivateScope, Public, HideBySig
+    getPrivacy(): PrivateScope, Public, HideBySig
+    Getcomments(): PrivateScope, Public, HideBySig
+    DeleteReact(String, String): PrivateScope, Public, HideBySig
+    UpdateReact(String, String, String): PrivateScope, Public, HideBySig
+    DeleteReactComment(Int32, String, String): PrivateScope, Public, HideBySig
+    UpdateReactComment(Int32, String, String, String): PrivateScope, Public, HideBySig
+    DeleteReactReply(Int32, Int32, String, String): PrivateScope, Public, HideBySig
+    UpdateReactReply(Int32, Int32, String, String, String): PrivateScope, Public, HideBySig
+    CheckIfTagged(String): PrivateScope, Public, HideBySig
+Class FacebookSystem.AccountShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String e_mail : Public
+  Methods:
+    Draw(String): PrivateScope, Public, HideBySig
+Class FacebookSystem.Users: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Reactors): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AddAccount(String, String): PrivateScope, Public, HideBySig
+Class FacebookSystem.ReplyControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(Int32, System.String, Int32, Int32, Reply): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 totalReactors : Public
+    Int32 like_count : Public
+    Int32 love_count : Public
+    Int32 haha_count : Public
+    Int32 angry_count : Public
+    Int32 sad_count : Public
+    Int32 wow_count : Public
+    System.String reactTypebyme : Public
+    System.String poster_mail : Public
+    Int32 post_id : Public
+    Int32 comm_id : Public
+    Int32 Reply_id : Public
+    System.Collections.Generic.List`1[System.String] ReactionPriority : Public
+    Boolean Like_button : Public
+    Boolean like : Public
+    Boolean love : Public
+    Boolean haha : Public
+    Boolean sad : Public
+    Boolean angry : Public
+    Boolean wow : Public
+    Boolean pa : Public
+  Methods:
+    DrawReply(Reply): PrivateScope, Public, HideBySig
+    ReactToReply(String): PrivateScope, Public, HideBySig
+Class FacebookSystem.commentControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(System.String, Int32, Int32, Comment): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 totalReactors : Public
+    Int32 like_count : Public
+    Int32 love_count : Public
+    Int32 haha_count : Public
+    Int32 angry_count : Public
+    Int32 sad_count : Public
+    Int32 wow_count : Public
+    Boolean ReactedByMe : Public
+    System.String reactTypebyme : Public
+    System.String poster_mail : Public
+    Int32 post_id : Public
+    Int32 comm_id : Public
+    Int32 repliesCount : Public
+    System.Collections.Generic.List`1[System.String] ReactionPriority : Public
+    Boolean Like_button : Public
+    Boolean like : Public
+    Boolean love : Public
+    Boolean haha : Public
+    Boolean sad : Public
+    Boolean angry : Public
+    Boolean wow : Public
+    Boolean pa : Public
+    Boolean shiftispressed : Public
+  Methods:
+    DrawComment(Comment): PrivateScope, Public, HideBySig
+    ReactToComment(String): PrivateScope, Public, HideBySig
+    AddReply(Int32, String, Int32, Int32, Reply): PrivateScope, Public, HideBySig
+Class FacebookSystem.Post: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(Int32, UserPost): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 totalReactors : Public
+    Int32 like_count : Public
+    Int32 love_count : Public
+    Int32 haha_count : Public
+    Int32 angry_count : Public
+    Int32 sad_count : Public
+    Int32 wow_count : Public
+    Int32 Commentscount : Public
+    Boolean ReactedByMe : Public
+    System.String reactTypebyme : Public
+    System.String poster_mail : Public
+    System.Collections.Generic.List`1[System.String] ReactionPriority : Public
+    Int32 post_id : Public
+    Boolean like : Public
+    Boolean love : Public
+    Boolean haha : Public
+    Boolean wow : Public
+    Boolean sad : Public
+    Boolean angry : Public
+    Boolean p : Public
+    Boolean like_button : Public
+    Boolean shiftispressed : Public
+  Methods:
+    DrawPost(UserPost): PrivateScope, Public, HideBySig
+    ReactToPost(String): PrivateScope, Public, HideBySig
+    addComment(String, Int32, Int32, Comment): PrivateScope, Public, HideBySig
+Class FacebookSystem.newsFeed: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    noPost(): PrivateScope, Public, HideBySig
+    AddNewPost(Int32, UserPost): PrivateScope, Public, HideBySig
+Class FacebookSystem.SeeFriendship: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class FacebookSystem.SendMessage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Email : Public
+Class FacebookSystem.oneMessage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class FacebookSystem.Messenger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 cID : Public
+    Int32 hi : Public
+Class FacebookSystem.UserProfile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String e_mail : Public
+  Methods:
+    Draw(String): PrivateScope, Public, HideBySig
+Class FacebookSystem.AccountControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String e_mail : Public
+  Methods:
+    Draw(String): PrivateScope, Public, HideBySig
+Class FacebookSystem.AccountSettings: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 x : Public
+Class FacebookSystem.AccountsList: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(System.Windows.Forms.UserControl, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AddAccount(String): PrivateScope, Public, HideBySig
+Class FacebookSystem.ConversationLastMessage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 cId : Public
+Class FacebookSystem.AllConversations: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    addconversation(Int32): PrivateScope, Public, HideBySig
+Class FacebookSystem.Home: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean shiftispressed : Public
+Class FacebookSystem.Registered_sucsses: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class FacebookSystem.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
